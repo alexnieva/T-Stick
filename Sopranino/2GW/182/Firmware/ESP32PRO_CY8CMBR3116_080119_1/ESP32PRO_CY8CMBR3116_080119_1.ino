@@ -1,3 +1,16 @@
+/*
+ * Sopranino T-Stick 2GW Fall 2018 - Winter 2019 version
+ * Alex Nieva Fall 2018 - Winter 2019
+ * Input Devices and Music Interaction Laboratory - McGill University
+ * http://www-new.idmil.org/project/the-t-stick/
+ * 
+ * Based on the original T-Stick design by Joseph Malloch
+ * 
+ * This code is open-source
+ * 
+ */
+ 
+ 
 #include <Wire.h>
 
 // EEPROM library

@@ -1,6 +1,7 @@
 void setupCapsense(){
   
-  Wire.begin();
+  //Wire.begin();
+  Wire.setClock(400000);
 
   if (DEBUG) {
   ///////
@@ -82,26 +83,26 @@ void setupCapsense(){
   Wire.write(0x00);
   Wire.endTransmission();
 
-  // Sensitivity
-  Wire.beginTransmission(I2C_ADDR);
-  Wire.write(SENSITIVITY0);
-  Wire.write(B10101010);
-  Wire.endTransmission();
-
-  Wire.beginTransmission(I2C_ADDR);
-  Wire.write(SENSITIVITY1);
-  Wire.write(B10101010);
-  Wire.endTransmission();
-
-  Wire.beginTransmission(I2C_ADDR);
-  Wire.write(SENSITIVITY2);
-  Wire.write(B10101010);
-  Wire.endTransmission();
-
-  Wire.beginTransmission(I2C_ADDR);
-  Wire.write(SENSITIVITY3);
-  Wire.write(B10101010);
-  Wire.endTransmission();
+//  // Sensitivity
+//  Wire.beginTransmission(I2C_ADDR);
+//  Wire.write(SENSITIVITY0);
+//  Wire.write(B10101010);
+//  Wire.endTransmission();
+//
+//  Wire.beginTransmission(I2C_ADDR);
+//  Wire.write(SENSITIVITY1);
+//  Wire.write(B10101010);
+//  Wire.endTransmission();
+//
+//  Wire.beginTransmission(I2C_ADDR);
+//  Wire.write(SENSITIVITY2);
+//  Wire.write(B10101010);
+//  Wire.endTransmission();
+//
+//  Wire.beginTransmission(I2C_ADDR);
+//  Wire.write(SENSITIVITY3);
+//  Wire.write(B10101010);
+//  Wire.endTransmission();
 
   // Special Purpose Output pin configuration
   Wire.beginTransmission(I2C_ADDR);

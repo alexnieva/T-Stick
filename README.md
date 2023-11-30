@@ -1,3 +1,4 @@
+# This repository is only valid for instruments developed until 2018 with the ESP8266 and the capsense board. Please go to the IDMI repository for up to date designs: https://github.com/IDMIL/T-Stick
 # T-Stick Digital Musical Instrument
 
 Documentation Repository - IDMIL

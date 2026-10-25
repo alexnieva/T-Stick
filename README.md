@@ -15,10 +15,10 @@ As of October 2018 there are 9 instruments at the IDMIL:
 
 2 T-Stick Sopranino (2G, 2GW)
 
-Project webpage: http://www-new.idmil.org/project/the-t-stick/
+Project webpage: http://www.idmil.org/project/the-t-stick/
 
 Created by Alex Nieva - Oct 2018.
 
-<p>IDMIL - Input Devices and Music Interaction Laboratory - http://www-new.idmil.org/</p> 
+<p>IDMIL - Input Devices and Music Interaction Laboratory - http://www.idmil.org/</p> 
 <p>CIRMMT - Centre for Interdisciplinary Research in Music Media and Technology - http://www.cirmmt.org/</p>
 <p>Schulich School of Music - McGill University</p>
